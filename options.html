@@ -1,0 +1,45 @@
+<html>
+<head>
+	<title>Pomodoro选项</title>
+	<script src="options.js"></script>
+	<link rel="stylesheet" type="text/css" href="options.css">
+</head>
+<body">
+<div id="main">
+<center>
+	<table>
+		<tr>
+			<td>
+				一个番茄时间:
+			</td>
+			<td>
+				<input id="rangePomodoro" type="range" min="25" max="45" value="25">
+				<span id="rangePomodoroValue"></span>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				休息时间:
+			</td>
+			<td>
+				<input id="rangeRest" type="range" min="5" max="10" value="5">
+				<span id="rangeRestValue"></span>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				长休息时间:
+			</td>
+			<td>
+				<input id="rangeLongRest" type="range" min="10" max="20" value="10">
+				<span id="rangeLongRestValue"></span>
+			</td>
+		</tr>
+	</table>
+	<button id="saveButton">保存</button>
+	<div id="message">
+	</div>
+</center>
+</div>
+</body>
+</html>
